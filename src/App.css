@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: rgb(43, 46, 55);
+  height: 75px;
+  line-height: 75px;
+}
+
+.header_title {
+  color: #fff;
+  font-size: 45px;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.searchbar {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.search_input {
+  border: 0.1px solid #999;
+  width: 50%;
+  height: 30px;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.search_submit {
+  cursor: default;
+  vertical-align: middle;
+  background-color: #999; /* Green */
+  border: 0.1px solid #999;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+  padding: 0px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.foo {
+  font-size: 20px;
+}
+
+.movie_frame {
+  width: 25%;
+}
+
+.movie_title {
+  font-size: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie_poster {
+  height:400px;
+}
+
+.search_result {
+  overflow: hidden;
+}
+
+.search_result > ul {
+  list-style-type: none;
+}
+
+.movie_frame  {
+  float: left;
+}
