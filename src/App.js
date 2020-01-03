@@ -32,7 +32,7 @@ function App() {
     let tmp_list = {}
 
     request({
-      url: "http://www.omdbapi.com/?apikey=58b0f6d3&s="+title,
+      url: "https://www.omdbapi.com/?apikey=58b0f6d3&s="+title,
       json: true,
     }, (err, res, body) => {
       if (body.Response !== "False") {
