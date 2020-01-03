@@ -8,7 +8,7 @@ function Movie(props) {
   return (
     <li className="movie_frame">
       <h1 className="movie_title" title={props.title}>{props.title}</h1>
-      <img className="movie_poster" src={props.poster} alt="ironman"></img>
+      <img className="movie_poster" src={props.poster} alt={props.title}></img>
       <p className="movie_year">({props.year})</p>
     </li>
   )
